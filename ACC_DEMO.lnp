@@ -1,0 +1,1 @@
+-mcpu=arm7tdmi -mthumb-interwork -o "./ACC_DEMO.elf" "./startup.o" "./main.o" "./uart.o" "./lcd.o" "./delay.o" "./adc.o" "./timer.o" "./acc_func.o" "./global_var.o" "./i2c_new.o" -nostartfiles -lm
