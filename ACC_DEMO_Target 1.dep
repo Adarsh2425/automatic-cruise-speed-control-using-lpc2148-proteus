@@ -1,0 +1,55 @@
+Dependencies for Project 'ACC_DEMO', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x651D9F41)(-mcpu=arm7tdmi --gdwarf-2 -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" --defsym __UVISION_VERSION=538--MD ./startup.d -o ./startup.o)
+F (.\main.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./main.o)
+I (uart.h)(0x590336EC)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214x.H)(0x570F3C30)
+I (LCD.h)(0x590330D6)
+I (delay.h)(0x58F36796)
+I (ADC.h)(0x590C135D)
+I (Timer.h)(0x59033102)
+I (Extern_Global_Var.h)(0x59094446)
+I (Common.h)(0x590CCF78)
+I (I2C_new.h)(0x59094531)
+I (ACC_Func.h)(0x5906E76A)
+F (.\uart.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./uart.o)
+I (uart.h)(0x590336EC)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214x.H)(0x570F3C30)
+F (.\uart.h)(0x651D9F41)()
+F (.\delay.h)(0x651D9F41)()
+F (.\LCD.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./lcd.o)
+I (LCD.h)(0x590330D6)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214x.H)(0x570F3C30)
+I (delay.h)(0x58F36796)
+F (.\LCD.h)(0x651D9F41)()
+F (.\delay.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./delay.o)
+I (delay.h)(0x58F36796)
+F (.\ADC.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./adc.o)
+I (ADC.h)(0x590C135D)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214x.H)(0x570F3C30)
+F (.\ADC.h)(0x651D9F41)()
+F (.\Timer.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./timer.o)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x570F3C30)
+I (Type.h)(0x5726CF10)
+I (Timer.h)(0x59033102)
+F (.\Timer.h)(0x651D9F41)()
+F (.\type.h)(0x651D9F41)()
+F (.\ACC_Func.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./acc_func.o)
+I (C:\Keil_v5\ARM\Inc\Philips\LPC214X.H)(0x570F3C30)
+I (Extern_Global_Var.h)(0x59094446)
+I (Common.h)(0x590CCF78)
+I (LCD.h)(0x590330D6)
+I (delay.h)(0x58F36796)
+I (ADC.h)(0x590C135D)
+I (Timer.h)(0x59033102)
+I (uart.h)(0x590336EC)
+F (.\ACC_Func.h)(0x651D9F41)()
+F (.\Extern_Global_Var.h)(0x651D9F41)()
+F (.\Global_Var.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./global_var.o)
+I (Common.h)(0x590CCF78)
+F (.\Common.h)(0x651D9F41)()
+F (.\I2C_new.h)(0x651D9F41)()
+F (.\I2C_new.c)(0x651D9F41)(-c -mcpu=arm7tdmi -gdwarf-2 -MD -Wall -O -mapcs-frame -mthumb-interwork -IC:/Keil_v5/ARM/INC/Philips -I"C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/11.2 2022.02/arm-none-eabi/include" -D__UVISION_VERSION="538"-o ./i2c_new.o)
+I (C:\Keil_v5\ARM\Inc\Philips\lpc214x.h)(0x570F3C30)
+I (I2C_new.h)(0x59094531)
+I (common.h)(0x590CCF78)
+I (Extern_Global_Var.h)(0x59094446)
