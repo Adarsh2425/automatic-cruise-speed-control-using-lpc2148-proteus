@@ -4,9 +4,7 @@
 
 This project demonstrates an Automatic Cruise Control (ACC) system implemented on the LPC21xx microcontroller platform and simulated using Proteus. The ACC system automatically adjusts the vehicle's speed to maintain a safe distance from vehicles ahead. It includes distance measurement using a photo diode sensor, user control settings, and more.
 
-
 ![Alt Text](https://i.ibb.co/sbL5JT3/Screenshot-2023-10-05-004833.png)
-
 
 ## Features
 
