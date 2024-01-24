@@ -9,7 +9,6 @@ void ADC_Init(void)			//This function inits ADC peripheral
  						// START = 1   // EDGE = 0 (CAP/MAT)
 } 
                            
-
 unsigned int ADC_Conversion(unsigned char Channel)
 {
  unsigned int Temp=0;
