@@ -164,7 +164,4 @@ Questions or collaboration proposals: [Your Name](mailto:your.email@example.com)
 
 ![System Screenshot](https://i.ibb.co/sbL5JT3/Screenshot-2023-10-05-004833.png)  
 ![Proteus Simulation](https://i.ibb.co/30hgND3/Proteus-Simulation.jpg)
-```
-
----
 
